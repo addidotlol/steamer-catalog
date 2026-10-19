@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "heroic",
+      "name": "Heroic Games Launcher",
+      "description": "Epic, GOG and Amazon Prime games on Linux.",
+      "homepage": "https://heroicgameslauncher.com",
+      "tags": ["launcher"],
+      "source": {
+        "type": "github",
+        "repo": "Heroic-Games-Launcher/HeroicGamesLauncher",
+        "asset": "^Heroic-.*-linux-x86_64\\.AppImage$"
+      }
+    },
+    {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "description": "Stream games from your PC with Sunshine or GeForce Experience.",
+      "homepage": "https://moonlight-stream.org",
+      "tags": ["streaming"],
+      "source": {
+        "type": "github",
+        "repo": "moonlight-stream/moonlight-qt",
+        "asset": "^Moonlight-.*-x86_64\\.AppImage$"
+      }
+    },
+    {
+      "id": "pcsx2",
+      "name": "PCSX2",
+      "description": "PlayStation 2 emulator.",
+      "homepage": "https://pcsx2.net",
+      "tags": ["emulator", "playstation"],
+      "source": {
+        "type": "github",
+        "repo": "PCSX2/pcsx2",
+        "asset": "^pcsx2-.*-linux-appimage-x64-Qt\\.AppImage$"
+      }
+    },
+    {
+      "id": "duckstation",
+      "name": "DuckStation",
+      "description": "PlayStation 1 emulator.",
+      "homepage": "https://www.duckstation.org",
+      "tags": ["emulator", "playstation"],
+      "source": {
+        "type": "github",
+        "repo": "stenzek/duckstation",
+        "asset": "^DuckStation-x64\\.AppImage$"
+      }
+    },
+    {
+      "id": "ppsspp",
+      "name": "PPSSPP",
+      "description": "PlayStation Portable emulator.",
+      "homepage": "https://www.ppsspp.org",
+      "tags": ["emulator", "playstation"],
+      "source": {
+        "type": "github",
+        "repo": "hrydgard/ppsspp",
+        "asset": "^PPSSPP-.*-anylinux-x86_64\\.AppImage$"
+      }
+    },
+    {
+      "id": "rpcs3",
+      "name": "RPCS3",
+      "description": "PlayStation 3 emulator.",
+      "homepage": "https://rpcs3.net",
+      "tags": ["emulator", "playstation"],
+      "source": {
+        "type": "github",
+        "repo": "RPCS3/rpcs3-binaries-linux",
+        "asset": "^rpcs3-.*_linux64\\.AppImage$"
+      }
+    },
+    {
+      "id": "cemu",
+      "name": "Cemu",
+      "description": "Wii U emulator.",
+      "homepage": "https://cemu.info",
+      "tags": ["emulator", "nintendo"],
+      "source": {
+        "type": "github",
+        "repo": "cemu-project/Cemu",
+        "asset": "^Cemu-.*-x86_64\\.AppImage$"
+      }
+    },
+    {
+      "id": "azahar",
+      "name": "Azahar",
+      "description": "Nintendo 3DS emulator.",
+      "homepage": "https://azahar-emu.org",
+      "tags": ["emulator", "nintendo"],
+      "source": {
+        "type": "github",
+        "repo": "azahar-emu/azahar",
+        "asset": "^azahar\\.AppImage$"
+      }
+    },
+    {
+      "id": "xemu",
+      "name": "xemu",
+      "description": "Original Xbox emulator.",
+      "homepage": "https://xemu.app",
+      "tags": ["emulator", "xbox"],
+      "source": {
+        "type": "github",
+        "repo": "xemu-project/xemu",
+        "asset": "^xemu-[0-9.]+-x86_64\\.AppImage$"
+      }
+    }
+  ],
+  "featuredDecky": ["SteamGridDB", "CSS Loader", "ProtonDB Badges", "PowerTools", "HLTB for Deck"]
+}
